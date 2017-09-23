@@ -1,0 +1,353 @@
+﻿body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Microsoft YaHei";
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 0.8em;
+}
+ul,ol{list-style-type: none}
+input,img,select{vertical-align: middle;}
+input{
+	font-size: 0.8em;
+	font-family: "Microsoft YaHei";
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: #C00;
+	text-decoration: none;
+}
+.clear{clear: both;}
+
+/*2017-2-16 shuirong*/
+/*样式, 颜色*/
+label{
+	font-size: 1.3em;
+	font-family: "Microsoft YaHei";
+	line-height: 1.5em;
+	color: inherit;
+}
+.text-bold{
+	font-weight: bold;
+}
+.text-big{
+	font-size: 2em;
+}
+.text-middle{
+	font-size: 1.6em;
+}
+.text-small{
+	font-size: 1.1em;
+}
+.text-center{
+	text-align: center;
+}
+.color-pink{
+	color: #ff5363;
+}
+/*标题色*/
+.color-0{
+	color: #fdd266;
+}
+/*主要文本色*/
+.color-1{
+	color: #fff;
+}
+.img-radius{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.inline-b{
+	display: inline-block;
+	vertical-align: middle;
+}
+/* 大转盘样式 */
+.banner{
+	position: relative;
+	display: block;
+	width: 100%;
+	/*height: 100%;*/
+	margin: auto;
+	overflow: hidden;
+}
+.banner .turnplate{
+	position: absolute;
+	display: block;
+	width: 80%;
+	left: 10%;
+    top: 29%;
+}
+.banner .turnplate>div{
+	width: 108%;
+	height: 108%;
+	background-image: none;
+	background-size: 100% 100%;
+	-webkit-animation: marquee-lamp 1.5s linear 0s infinite;
+    -moz-animation: marquee-lamp 1.5s linear 0s infinite;
+    animation: marquee-lamp 1.5s linear 0s infinite;
+    position: absolute;
+    top: -4%;
+    left: -4%;
+}
+.banner .turnplate canvas.item{
+	width: 100%;
+	position: relative;
+}
+.banner .turnplate img.pointer{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.banner .turnplate .pointer_btn{
+	position: absolute;
+	width: 28%;
+	height: 28%;
+	left: 36%;
+	top: 36%;
+	background: none;
+	background-size: 100% 100%;
+}
+/*店铺logo*/
+.banner>.banner-logo{
+	position: absolute;
+	top: 20.5%;
+	right: -12%;
+	-webkit-transform: translateX(-50%);
+	text-align: center;
+}
+.banner>.banner-logo>.banner-logo-img{
+	position: relative;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+    margin-right: -2rem;
+    z-index: 1;
+}
+.banner>.banner-logo>.banner-logo-enter{
+	color: #fff;
+	display: block;
+	width: 6rem;
+	height: 2.3rem;
+	float: left;
+	background: #000;
+	opacity: 0.5;
+	border-radius: 0 2rem 2rem 0;
+	font-size: 1rem;
+    line-height: 2.3rem;
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+.banner>.banner-logo>.banner-logo-enter>span:first-child{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.4;
+	border-radius: 0 2rem 2rem 0;
+	position: absolute;
+}
+.banner>.banner-logo>.banner-logo-enter>span:last-child{
+	color: #fff;
+}
+.banner .banner-text{
+	position: absolute;
+    top: 76%;
+    width: 100%;
+    text-align: center;
+}
+.banner .banner-text>label>span{
+	font-weight: bold;
+	margin: 0 0.2rem;
+}
+.banner .banner-text marquee{
+	margin-top: 0.5rem;
+}
+.banner .banner-text marquee label{
+	line-height: 1.7rem;
+    display: block;
+}
+/*抽奖机会*/
+.chance{
+	padding: 0 0.8em;
+}
+.chance-way{
+   text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 4%;
+}
+.chance-way .chance-button{
+	/*width: 30%;*/
+    padding: 0.4em 0.3em;
+    margin-right: 0.2em;
+	font-size: 1.3em;
+    border: none;
+    border-radius: 0.4rem;
+    outline: none;
+}
+.chance-way .chance-button>i{
+	font-size: 1rem;
+    float: left;
+    margin-right: 0.1rem;
+    margin-top: 0.1rem;
+}
+.chance-way .chance-button:active{
+	box-shadow: inset 0 3px 0.5em rgba(0,0,0,.125);
+}
+.chance-way>p{
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+.chance>.chance-content{
+	padding: 0 1em 2rem;
+	/*background-color: #FEBB46;*/
+}
+.chance>.chance-content img{
+	width: 1.5em;
+	margin-right: 0.3em;
+	vertical-align: middle;
+}
+.chance>.chance-content>.chance-item{
+	margin-bottom: 1rem;
+}
+.chance>.chance-content>.chance-item .chance-title{
+	overflow: hidden;
+}
+.chance>.chance-content>.chance-item .chance-title>i{
+	float: left;
+	font-size: 1.5rem;
+	margin-right: 0.3rem;
+}
+.chance>.chance-content>.chance-item .chance-title>label{
+	float: left;
+	margin-top: 0.3rem;
+	font-size: 1.5em;
+}
+.chance>.chance-content>.chance-item>.chance-con>div{
+	padding: 0.4em 0 0.4em 0;
+}
+/*弹窗*/
+
+/*实物奖品-用户信息*/
+.user-info{
+	padding-top: 1.5em;
+}
+.user-info>div{
+	margin-top: 0.8em;
+	color: #666666;
+}
+.user-info .info-name{
+	width: 6rem;
+	padding-bottom: 0.2em;
+	text-align: right;
+}
+.user-info .info-input{
+	padding: 0.3em 0.8em;
+	width: calc(100% - 8rem);
+	text-align: left;
+	border: 1px solid #E5E5E5;
+    border-radius: 0.3rem;
+}
+.user-info .info-input input{
+	width: 95%;
+	height: 100%;
+	color: #666666;
+	font-size: 1.2em;
+	vertical-align: middle;
+	border: none;
+	outline: none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+/*加购宝贝， 收藏宝贝*/
+.add-collect-goods{
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/*background: rgba(0,0,0,0.5);*/
+	z-index: 2;
+	overflow: hidden;
+}
+.add-collect-goods>.add-collect-goods-content{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	max-height: 70%;
+	z-index: 2;
+	overflow-y: auto;
+}
+.rotate{
+	animation:rotate 1s linear infinite;
+	-webkit-animation:rotate 1s linear infinite;
+}
+@keyframes rotate{
+    0% {
+    	transform:rotate(0deg);
+    	-webkit-transform:rotate(0deg);
+    } 
+    100% {
+    	transform:rotate(360deg);
+    	-webkit-transform:rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate{
+    0% {
+    	transform:rotate(0deg);
+    	-webkit-transform:rotate(0deg);
+    } 
+    100% {
+    	transform:rotate(360deg);
+    	-webkit-transform:rotate(360deg);
+    }
+}
+
+@keyframes marquee-lamp{
+	0% {
+    transform: rotate(0deg);
+}
+	49.99% {
+	    transform: rotate(0deg);
+	}
+	50% {
+	    transform: rotate(-18deg);
+	}
+	100% {
+	    transform: rotate(-18deg);
+	}
+}
+@-webkit-keyframes marquee-lamp{
+	0% {
+    transform: rotate(0deg);
+}
+	49.99% {
+	    transform: rotate(0deg);
+	}
+	50% {
+	    transform: rotate(-18deg);
+	}
+	100% {
+	    transform: rotate(-18deg);
+	}
+}
+.alert_draw .text{
+	font-size: 1rem;
+	margin-top: 0.8rem;
+}
+.alert_draw .text-center{
+	margin-top: 0.5rem;
+	font-size: 1rem;
+}

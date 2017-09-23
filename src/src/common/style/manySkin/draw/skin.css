@@ -1,0 +1,208 @@
+/*紫色   #fcfa76 #ffdc64*/
+	.banner1 .turnplate1{
+		top: 29%;
+	}
+	.banner1 .banner-text1{
+		top: 76%;
+	}
+	.banner1 .turnplate1>div{
+		background-image: url(/static/images/manySkin/draw/skin1/turnplate-bg.png);
+	}
+	.banner1 .turnplate1 .pointer_btn1{
+		background: url(/static/images/manySkin/draw/skin1/go.png);
+		background-size: 100% 100%;
+	}
+	.color-01{
+		color: #fdd266;
+	}
+	.banner1 .banner-text1 marquee{
+		background: #761f97;
+	}
+	.chance-way1{
+		bottom: 4%;
+	}
+	.chance-way1 .chance-button1{
+		color: #333;
+	    background-color: #ffdc64;
+	}
+	.chance1{
+		background-color: #66068b;
+	}
+
+	/*happy 天天欢乐  #ffd531 #fabe38*/
+	.banner6 .turnplate6>div{
+		background-image: url(/static/images/manySkin/draw/skin6/turnplate-bg.png);
+	}
+	.banner6 .turnplate6 .pointer_btn6{
+		background: url(/static/images/manySkin/draw/skin6/go.png);
+		background-size: 100% 100%;
+	}
+	.color-06{
+		color: #fff;
+	}
+	.banner6 .banner-text6 marquee{
+		background: #e15472;
+		border-radius: 4px;
+	}
+	.banner6 .banner-text6 marquee .color-06{
+		color: #ffe074;
+	}
+	.chance-way6{
+		bottom: 3%;
+	}
+	.chance-way6 .chance-button6{
+		background: url(/static/images/manySkin/draw/skin6/btnbg.png);
+		background-size: 100% 100%;
+		color: #fff;
+	}
+	.chance6{
+		background: url(/static/images/manySkin/draw/skin6/bg2.png) no-repeat;
+		background-size: 100% 100%;
+	}
+
+		/*春节   #ffdd9a #efc36d*/
+	.banner3 .turnplate3{
+		top: 27%;
+	}
+	.banner3 .banner-text3{
+		top: 73%;
+	}
+	.banner3 .turnplate3>div{
+		background-image: url(/static/images/manySkin/draw/skin3/turnplate-bg.png);
+	}
+	.banner3 .turnplate3 .pointer_btn3{
+		background: url(/static/images/manySkin/draw/skin3/go.png);
+		background-size: 100% 100%;
+	}
+	.color-03{
+		color: #fdd266;
+	}
+	.banner3 .banner-text3 marquee{
+		background: #e7576a;
+	}
+	.banner3 .banner-text3 marquee .color-03{
+		color: #ffe074;
+	}
+	.chance-way3{
+		bottom: 6%;
+	}
+	.chance-way3 .chance-button3{
+		background: url(/static/images/manySkin/draw/skin3/btnbg.png);
+		background-size: 100% 100%;
+		color: #e93b3d;
+	}
+	.chance3{
+		background: url(/static/images/manySkin/draw/skin3/bg2.png) repeat-y;
+	}
+
+	/*情人节  底盘颜色  #ffdc64  #fcfa76*/
+	.banner5 .turnplate5{
+		top: 28%;
+	}
+	.banner5 .turnplate5>div{
+		background-image: url(/static/images/manySkin/draw/skin5/turnplate-bg.png);
+	}
+	.banner5 .turnplate5 .pointer_btn5{
+		background: url(/static/images/manySkin/draw/skin5/go.png);
+		background-size: 100% 100%;
+	}
+	.banner5>.banner-logo5{
+		top: 21.5%;
+	}
+	.banner5 .banner-text5{
+		top: 74%;
+	}
+	.color-05{
+		color: #FCFA76;
+	}
+	.banner5 .banner-text5 marquee{
+		background: #fecfc9;
+		border-radius: 4px;
+	}
+	.banner5 .banner-text5 marquee .color-05{
+		color: #f03f6d;
+	}
+	.chance-way5 .chance-button5{
+		background: #ffdc64;
+		color: #f03f6d;
+	}
+	.chance5{
+		background: url(/static/images/manySkin/draw/skin5/bg2.png) no-repeat;
+		background-size: 100% 100%;
+	} 
+
+	/*妇女节  底盘颜色 #fff  #fdd4e0*/
+	 .banner4 .turnplate4{
+		top: 27.5%;
+	}
+	.banner4 .banner-text4{
+		top: 73.5%;
+	}
+	 .banner4 .turnplate4>div{
+		background-image: url(/static/images/manySkin/draw/skin4/turnplate-bg.png);
+	}
+	.banner4 .turnplate4 .pointer_btn4{
+		background: url(/static/images/manySkin/draw/skin4/go.png);
+		background-size: 100% 100%;
+	}
+	.color-04{
+		color: #F50068;
+	}
+	.banner4 .banner-text4>label{
+		color: #ce90ae;
+	}
+	.banner4 .banner-text4 marquee{
+		background: #FD98BA;
+		border-radius: 4px;
+	}
+	.chance-way4 .chance-button4{
+		background: #DD0069;
+		color: #fff;
+	}
+	.chance4{
+		background: url(/static/images/manySkin/draw/skin4/bg2.png) no-repeat;
+	} 
+
+	/*yellow 超级赚赚赚 底盘颜色  #c8ebff  #69cdff*/
+	.banner2 .turnplate2{
+		top: 27%;
+	}
+	.banner2 .turnplate2>div{
+		background-image: url(/static/images/manySkin/draw/skin2/turnplate-bg.png);
+	}
+	.banner2 .turnplate2 .pointer_btn2{
+		background: url(/static/images/manySkin/draw/skin2/go.png);
+		background-size: 100% 100%;
+	}
+	.color-02{
+		color: #ffba00;
+	}
+	.banner2 .banner-text2{
+		top: 75%;
+	}
+	.banner2 .banner-text2>label>span{
+		color: #ffea00;
+	}
+	.banner2 .banner-text2 marquee{
+		background: #fee9c3;
+		border-radius: 4px;
+	}
+	.banner2 .banner-text2 marquee>label,.banner2 .banner-text2 marquee>label>span{
+		color: #f18b0d
+	}
+	.chance-way2{
+		bottom: 7%;
+	}
+	.chance-way2 .chance-button2{
+		background: url(/static/images/manySkin/draw/skin2/btnbg.png);
+		background-size: 100% 100%;
+		color: #fff;
+		border-radius: 0;
+		font-weight: bold;
+		padding: 0.5em 0.3em;
+	    margin-right: 0.1em;
+	}
+	.chance2{
+		background: url(/static/images/manySkin/draw/skin2/bg2.png) no-repeat;
+		background-size: 100% 100%;
+	} 
